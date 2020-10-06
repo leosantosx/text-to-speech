@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <h1 class="titulo">Text to speech</h1>
+    <section class="content">
+        <textarea class="campo-texto" placeholder="Write your text here"></textarea>
+        <button class="play">Play</button>
+        <button class="pause hide">Pause</button>
+
+        <div class="campos-select">
+            <label for="voz">Voice
+                <select id="voz">
+                    <option value="UK English Male">UK English Male</option>
+                    <option value="US English Male" selected>US English Female</option>
+                    <option value="Brazilian Portuguese Female">Brazilian Portuguese Female</option>
+                    <option value="Spanish Female">Spanish Female</option>
+                </select>
+            </label>
+    
+            <label>Rate
+                <select id="rate">
+                    <option value="0.25">0.25</option>                  
+                    <option value="0.5">0.5</option>                  
+                    <option value="0.75">0.75</option>                
+                    <option value="1.0" selected>1.0</option>
+                    <option value="1.25">1.25</option>
+                    <option value="1.5">1.5</option>
+                    <option value="2.0">2.0</option>
+                </select>   
+            </label>
+        </div>
+    </section>
+
+    <script src="js/responsivevoice.js?key=BOZP6Ed4"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

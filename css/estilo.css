@@ -1,0 +1,68 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #e2ebf1;
+}
+
+.titulo{
+    color: #156796;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.campo-texto{
+    width: 70%;
+    height: 200px;
+    margin-right: 30px;
+    border: 2px solid #156796;
+    outline: none;
+    font-size: 20pt;
+    border-radius: 5px;
+    padding: 10px;
+    color: #25323b;
+}
+
+.play, .pause{
+    text-indent: -9999px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    padding: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 20px 10% 20px 0;
+}
+
+.pause{
+    background-image: url(../img/pausa.svg);
+}
+
+.hide{
+    display: none;
+}
+
+.campos-select{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 15pt ;
+}
+
+select{
+    margin: 10px;
+    padding: 10px 15px;
+    border: 2px solid #156796; 
+    outline: none;
+}
